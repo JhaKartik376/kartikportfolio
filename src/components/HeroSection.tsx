@@ -37,16 +37,23 @@ const HeroSection = () => {
               <Mail className="mr-2 h-4 w-4 md:h-5 md:w-5 group-hover:rotate-12 transition-transform" />
               Get In Touch
             </Button>
-            <Button variant="outline" size="lg" className="hover-lift w-full sm:w-auto">
-              <Download className="mr-2 h-4 w-4 md:h-5 md:w-5" />
-              Download Resume
-            </Button>
+            <a
+              href="/Kartik_CV.pdf"
+              download
+              className="hover-lift w-full sm:w-auto"
+              style={{ textDecoration: 'none' }}
+            >
+              <Button variant="outline" size="lg">
+                <Download className="mr-2 h-4 w-4 md:h-5 md:w-5" />
+                Download Resume
+              </Button>
+            </a>
           </div>
 
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mb-12">
             <a 
-              href="https://github.com/kartikjha" 
+              href="https://github.com/jhakartik376" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 glass-card hover-lift group"
@@ -54,7 +61,7 @@ const HeroSection = () => {
               <Github className="h-5 w-5 md:h-6 md:w-6 group-hover:text-primary transition-colors" />
             </a>
             <a 
-              href="https://linkedin.com/in/kartikjha" 
+              href="https://www.linkedin.com/in/kartik-jha-21956b1a1/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 glass-card hover-lift group"
@@ -62,7 +69,7 @@ const HeroSection = () => {
               <Linkedin className="h-5 w-5 md:h-6 md:w-6 group-hover:text-primary transition-colors" />
             </a>
             <a 
-              href="mailto:kartikjha.dev@gmail.com"
+              href="mailto:kartikjha376@gmail.com"
               className="p-3 glass-card hover-lift group"
             >
               <Mail className="h-5 w-5 md:h-6 md:w-6 group-hover:text-primary transition-colors" />

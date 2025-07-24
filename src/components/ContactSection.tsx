@@ -20,14 +20,14 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "kartikjha.dev@gmail.com",
-    href: "mailto:kartikjha.dev@gmail.com"
+    value: "kartikjha376@gmail.com",
+    href: "mailto:kartikjha376@gmail.com"
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+91 9876543210",
-    href: "tel:+919876543210"
+    value: "+91 9534843079",
+    href: "tel:+919534843079"
   },
   {
     icon: MapPin,
@@ -41,13 +41,13 @@ const socialLinks = [
   {
     icon: Github,
     label: "GitHub",
-    href: "https://github.com/kartikjha",
+    href: "https://github.com/jhakartik376",
     color: "hover:text-white"
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "https://linkedin.com/in/kartikjha",
+    href: "https://www.linkedin.com/in/kartik-jha-21956b1a1/",
     color: "hover:text-blue-400"
   },
   {

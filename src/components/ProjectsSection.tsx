@@ -2,42 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github } from "lucide-react";
-import project1Image from "@/assets/project-1.jpg";
-import project2Image from "@/assets/project-2.jpg";
-import project3Image from "@/assets/project-3.jpg";
-
-const projects = [
-  {
-    id: 1,
-    title: "Analytics Dashboard",
-    description: "A comprehensive analytics platform built with React and D3.js, featuring real-time data visualization, custom charts, and responsive design. Processes over 1M data points daily.",
-    image: project1Image,
-    technologies: ["React", "TypeScript", "D3.js", "Node.js", "PostgreSQL", "Redis"],
-    liveLink: "https://analytics-demo.vercel.app",
-    githubLink: "https://github.com/username/analytics-dashboard",
-    featured: true
-  },
-  {
-    id: 2,
-    title: "3D Solar System",
-    description: "Interactive solar system visualization using Three.js with realistic physics, orbital mechanics, and educational content. Features immersive 3D experience with detailed planetary information.",
-    image: project2Image,
-    technologies: ["Three.js", "React", "WebGL", "GSAP", "CSS3"],
-    liveLink: "https://solar-system-3d.vercel.app",
-    githubLink: "https://github.com/username/solar-system",
-    featured: true
-  },
-  {
-    id: 3,
-    title: "E-Commerce Mobile App",
-    description: "Full-stack mobile commerce application with payment integration, inventory management, and real-time notifications. Built with React Native and modern backend architecture.",
-    image: project3Image,
-    technologies: ["React Native", "Express.js", "MongoDB", "Stripe", "Firebase"],
-    liveLink: "https://ecommerce-app.herokuapp.com",
-    githubLink: "https://github.com/username/ecommerce-app",
-    featured: false
-  }
-];
+import { realProjects as projects } from "./realProjects";
 
 const ProjectsSection = () => {
   return (
@@ -66,7 +31,8 @@ const ProjectsSection = () => {
                   <img 
                     src={project.image} 
                     alt={project.title}
-                    className="w-full h-64 lg:h-80 object-cover transition-transform duration-500 group-hover:scale-110"
+                    className="w-full h-64 lg:h-80 object-cover transition-transform duration-500 group-hover:scale-110 bg-white"
+                    style={project.title.includes('Comply') ? { objectFit: 'contain', backgroundColor: 'white' } : {}}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>

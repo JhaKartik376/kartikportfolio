@@ -5,11 +5,11 @@ import { Calendar, MapPin, Building } from "lucide-react";
 const experiences = [
   {
     id: 1,
-    company: "TechSolutions Inc",
-    role: "Full Stack Developer",
-    duration: "2022 - Present",
+    company: "Tecenetriz Pvt Ltd",
+    role: "Full Stack Developer Intern",
+    duration: "May 2025 - Present",
     location: "Remote",
-    type: "Full-time",
+    type: "Internship",
     description: [
       "Developed responsive web applications using React and Node.js",
       "Built RESTful APIs and integrated third-party services",
@@ -25,11 +25,11 @@ const experiences = [
   },
   {
     id: 2,
-    company: "WebCraft Studios",
-    role: "Frontend Developer",
-    duration: "2021 - 2022",
+    company: "HeyyGuru",
+    role: "UI/UX Developer Intern",
+    duration: "Aug 2024 - Dec 2024",
     location: "India",
-    type: "Full-time",
+    type: "Internship",
     description: [
       "Created responsive websites using HTML, CSS, and JavaScript",
       "Worked with design team to implement pixel-perfect interfaces",
@@ -47,7 +47,7 @@ const experiences = [
     id: 3,
     company: "Freelance Projects",
     role: "Web Developer",
-    duration: "2020 - 2021",
+    duration: "2020 - present",
     location: "Remote",
     type: "Freelance",
     description: [
