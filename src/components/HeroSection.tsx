@@ -21,24 +21,24 @@ const HeroSection = () => {
       {/* Main Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
         <div className="animate-slide-up">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="text-shimmer">Full Stack</span>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
+            <span className="text-shimmer">Kartik Jha</span>
             <br />
-            <span className="text-gradient">Developer</span>
+            <span className="text-gradient">Full Stack Developer</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
             Crafting digital experiences with modern technologies. 
             Passionate about clean code, innovative solutions, and bringing ideas to life.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button size="lg" className="hover-glow group">
-              <Mail className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
+            <Button size="lg" className="hover-glow group w-full sm:w-auto">
+              <Mail className="mr-2 h-4 w-4 md:h-5 md:w-5 group-hover:rotate-12 transition-transform" />
               Get In Touch
             </Button>
-            <Button variant="outline" size="lg" className="hover-lift">
-              <Download className="mr-2 h-5 w-5" />
+            <Button variant="outline" size="lg" className="hover-lift w-full sm:w-auto">
+              <Download className="mr-2 h-4 w-4 md:h-5 md:w-5" />
               Download Resume
             </Button>
           </div>
@@ -46,26 +46,26 @@ const HeroSection = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mb-12">
             <a 
-              href="https://github.com" 
+              href="https://github.com/kartikjha" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 glass-card hover-lift group"
             >
-              <Github className="h-6 w-6 group-hover:text-primary transition-colors" />
+              <Github className="h-5 w-5 md:h-6 md:w-6 group-hover:text-primary transition-colors" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://linkedin.com/in/kartikjha" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 glass-card hover-lift group"
             >
-              <Linkedin className="h-6 w-6 group-hover:text-primary transition-colors" />
+              <Linkedin className="h-5 w-5 md:h-6 md:w-6 group-hover:text-primary transition-colors" />
             </a>
             <a 
-              href="mailto:contact@example.com"
+              href="mailto:kartikjha.dev@gmail.com"
               className="p-3 glass-card hover-lift group"
             >
-              <Mail className="h-6 w-6 group-hover:text-primary transition-colors" />
+              <Mail className="h-5 w-5 md:h-6 md:w-6 group-hover:text-primary transition-colors" />
             </a>
           </div>
         </div>

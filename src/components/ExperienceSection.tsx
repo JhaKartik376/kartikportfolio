@@ -5,62 +5,62 @@ import { Calendar, MapPin, Building } from "lucide-react";
 const experiences = [
   {
     id: 1,
-    company: "TechCorp Solutions",
-    role: "Senior Full Stack Developer",
+    company: "TechSolutions Inc",
+    role: "Full Stack Developer",
     duration: "2022 - Present",
-    location: "San Francisco, CA",
+    location: "Remote",
     type: "Full-time",
     description: [
-      "Lead development of microservices architecture serving 500K+ users",
-      "Implemented CI/CD pipelines reducing deployment time by 60%",
-      "Mentored junior developers and conducted code reviews",
-      "Built real-time analytics dashboard with React and D3.js"
+      "Developed responsive web applications using React and Node.js",
+      "Built RESTful APIs and integrated third-party services",
+      "Implemented modern UI/UX designs with Tailwind CSS",
+      "Collaborated in agile development environment"
     ],
-    technologies: ["React", "Node.js", "PostgreSQL", "AWS", "Docker", "TypeScript"],
+    technologies: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS", "JavaScript"],
     achievements: [
-      "Improved application performance by 40%",
-      "Reduced bug reports by 70% through comprehensive testing",
-      "Led team of 5 developers on major product launch"
+      "Successfully delivered 10+ client projects",
+      "Improved application performance by 30%",
+      "Maintained high code quality standards"
     ]
   },
   {
     id: 2,
-    company: "StartupXYZ",
+    company: "WebCraft Studios",
     role: "Frontend Developer",
-    duration: "2020 - 2022",
-    location: "Remote",
+    duration: "2021 - 2022",
+    location: "India",
     type: "Full-time",
     description: [
-      "Developed responsive web applications using React and Next.js",
-      "Collaborated with design team to implement pixel-perfect UI/UX",
-      "Optimized application bundle size by 50% using code splitting",
-      "Integrated third-party APIs and payment gateways"
+      "Created responsive websites using HTML, CSS, and JavaScript",
+      "Worked with design team to implement pixel-perfect interfaces",
+      "Optimized websites for better performance and SEO",
+      "Maintained and updated existing client websites"
     ],
-    technologies: ["React", "Next.js", "Tailwind CSS", "Stripe", "Firebase"],
+    technologies: ["HTML", "CSS", "JavaScript", "React", "SCSS", "Bootstrap"],
     achievements: [
-      "Increased user engagement by 35%",
-      "Successfully launched 3 major product features",
-      "Maintained 99.9% uptime for production applications"
+      "Delivered 15+ responsive websites",
+      "Improved client website loading speeds by 40%",
+      "Achieved 95% client satisfaction rate"
     ]
   },
   {
     id: 3,
-    company: "Digital Agency Pro",
+    company: "Freelance Projects",
     role: "Web Developer",
-    duration: "2019 - 2020",
-    location: "New York, NY",
-    type: "Full-time",
+    duration: "2020 - 2021",
+    location: "Remote",
+    type: "Freelance",
     description: [
-      "Built custom WordPress themes and plugins for client projects",
-      "Developed e-commerce solutions using WooCommerce and Shopify",
-      "Implemented SEO best practices improving client rankings",
-      "Created responsive designs for 20+ client websites"
+      "Built custom websites for small businesses and startups",
+      "Developed e-commerce solutions and portfolio websites",
+      "Provided ongoing maintenance and support services",
+      "Worked directly with clients to understand requirements"
     ],
-    technologies: ["WordPress", "PHP", "JavaScript", "MySQL", "SCSS"],
+    technologies: ["WordPress", "PHP", "JavaScript", "MySQL", "HTML", "CSS"],
     achievements: [
-      "Delivered 25+ client projects on time and within budget",
-      "Improved client website speeds by average of 45%",
-      "Maintained 98% client satisfaction rate"
+      "Completed 20+ freelance projects successfully",
+      "Built strong client relationships and repeat business",
+      "Gained experience in project management and client communication"
     ]
   }
 ];
@@ -70,12 +70,12 @@ const ExperienceSection = () => {
     <section id="experience" className="py-20 px-6 bg-secondary/20">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gradient">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-gradient">
             Experience
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            My professional journey building scalable applications and leading development teams 
-            across various industries and company sizes.
+          <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            My professional journey in web development, from freelance projects to full-time roles, 
+            building modern applications and delivering quality solutions.
           </p>
         </div>
 
@@ -92,7 +92,7 @@ const ExperienceSection = () => {
                 <Card className="glass-card ml-0 md:ml-20 p-8 hover-lift">
                   <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-6">
                     <div className="mb-4 lg:mb-0">
-                      <h3 className="text-2xl font-bold mb-2">{experience.role}</h3>
+                      <h3 className="text-xl md:text-2xl font-bold mb-2">{experience.role}</h3>
                       <div className="flex items-center text-primary mb-2">
                         <Building className="h-4 w-4 mr-2" />
                         <span className="font-semibold">{experience.company}</span>

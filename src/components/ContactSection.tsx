@@ -20,19 +20,19 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "hello@developer.com",
-    href: "mailto:hello@developer.com"
+    value: "kartikjha.dev@gmail.com",
+    href: "mailto:kartikjha.dev@gmail.com"
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567"
+    value: "+91 9876543210",
+    href: "tel:+919876543210"
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
+    value: "India",
     href: "#"
   }
 ];
@@ -41,19 +41,19 @@ const socialLinks = [
   {
     icon: Github,
     label: "GitHub",
-    href: "https://github.com",
+    href: "https://github.com/kartikjha",
     color: "hover:text-white"
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "https://linkedin.com",
+    href: "https://linkedin.com/in/kartikjha",
     color: "hover:text-blue-400"
   },
   {
     icon: Twitter,
     label: "Twitter",
-    href: "https://twitter.com",
+    href: "https://twitter.com/kartikjha_dev",
     color: "hover:text-blue-400"
   }
 ];
@@ -94,10 +94,10 @@ const ContactSection = () => {
     <section id="contact" className="py-20 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gradient">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-gradient">
             Get In Touch
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Have a project in mind or want to collaborate? I'd love to hear from you. 
             Let's create something amazing together.
           </p>
@@ -108,8 +108,8 @@ const ContactSection = () => {
           <div className="animate-slide-in-left">
             <Card className="glass-card p-8 mb-8">
               <div className="flex items-center mb-6">
-                <MessageSquare className="h-8 w-8 text-primary mr-3" />
-                <h3 className="text-2xl font-semibold">Let's Talk</h3>
+                <MessageSquare className="h-6 w-6 md:h-8 md:w-8 text-primary mr-3" />
+                <h3 className="text-xl md:text-2xl font-semibold">Let's Talk</h3>
               </div>
               
               <p className="text-muted-foreground mb-8 leading-relaxed">

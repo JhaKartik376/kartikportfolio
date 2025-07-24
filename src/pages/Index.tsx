@@ -26,8 +26,11 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-secondary/20 py-8 px-6 border-t border-border">
         <div className="max-w-6xl mx-auto text-center">
-          <p className="text-muted-foreground">
-            © 2024 Developer Portfolio. Built with React, TypeScript & Tailwind CSS
+          <p className="text-muted-foreground text-sm md:text-base">
+            © 2024 Kartik Jha. All rights reserved. Built with React, TypeScript & Tailwind CSS
+          </p>
+          <p className="text-muted-foreground/70 text-xs mt-2">
+            Designed & Developed with ❤️ by Kartik Jha
           </p>
         </div>
       </footer>
