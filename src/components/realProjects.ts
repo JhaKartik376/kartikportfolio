@@ -1,10 +1,10 @@
 
-import iotbeatImage from "@/assets/iotbeat.jpg";
-import webcraftImage from "@/assets/project-1.jpg";
-import bustlersImage from "@/assets/project-3.jpg";
+import iotbeatImage from "@/assets/iotbeat-new.png";
+import webcraftImage from "@/assets/webcraft-new.png";
+import bustlersImage from "@/assets/bustlers-new.png";
 
 import project2Image from "@/assets/project-2.jpg";
-import complyAIImage from "@/assets/comply-ai.jpg";
+import complyAIImage from "@/assets/comply-new.png";
 
 export const realProjects = [
   {

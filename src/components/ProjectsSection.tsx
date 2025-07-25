@@ -88,10 +88,17 @@ const ProjectsSection = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button variant="outline" size="lg" className="hover-lift">
-            <Github className="mr-2 h-5 w-5" />
-            View All Projects on GitHub
-          </Button>
+          <a
+            href="https://github.com/jhakartik376"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'none' }}
+          >
+            <Button variant="outline" size="lg" className="hover-lift">
+              <Github className="mr-2 h-5 w-5" />
+              View All Projects on GitHub
+            </Button>
+          </a>
         </div>
       </div>
     </section>
